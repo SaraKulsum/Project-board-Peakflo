@@ -40,6 +40,7 @@ src/
 - **Material-UI**: UI components and styling
 - **Zustand**: State management with persistence
 - **React Router**: Navigation and routing
+- **Firebase**: Hosting
 
 ## Installation
 
@@ -100,7 +101,8 @@ yarn dev
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "zustand": "^4.0.0"
+    "zustand": "^4.0.0",
+    "firebase": "^11.2.0"
   }
 }
 ```
