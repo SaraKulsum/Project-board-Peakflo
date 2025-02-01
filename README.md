@@ -5,6 +5,7 @@ A modern task management application built with React, TypeScript, and Material-
 ## Features
 
 ### Core Functionality
+
 - **Drag and Drop**: Easily move tasks between different status columns
 - **Task Management**:
   - Add new tasks to any status column
@@ -17,6 +18,7 @@ A modern task management application built with React, TypeScript, and Material-
 - **Data Persistence**: All data is automatically saved to localStorage
 
 ### Project Structure
+
 ```
 src/
 ├── components/
@@ -25,8 +27,8 @@ src/
 ├── pages/
 │   ├── Home.tsx             # Main board view
 │   └── Details.tsx          # Task details page
-├── store.ts                 # Zustand store  
-│              
+├── store.ts                 # Zustand store
+│
 └── App.tsx                  # Main application component
 ```
 
@@ -42,12 +44,13 @@ src/
 ## Installation
 
 1. Clone the repository:
+
 ```bash
-git clone [repository-url]
-cd project-board
+git clone https://github.com/SaraKulsum/Project-board-Peakflo.git
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -55,6 +58,7 @@ yarn install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 # or
@@ -64,21 +68,25 @@ yarn dev
 ## Usage
 
 ### Creating a New Task
+
 1. Click the "New" button under any status column
 2. Fill in the task details in the opened page
 3. Save the task
 
 ### Moving Tasks
+
 1. Click and hold any task card
 2. Drag it to the desired status column
 3. Release to drop
 
 ### Editing Tasks
+
 1. Click on any task card
 2. Edit the task details in the dedicated page
 3. Save changes or delete the task
 
 ### Data Persistence
+
 - All changes are automatically saved to localStorage
 - Data persists across page refreshes and browser sessions
 
@@ -96,4 +104,3 @@ yarn dev
   }
 }
 ```
-
